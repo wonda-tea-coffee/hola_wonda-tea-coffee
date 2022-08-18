@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "hola_wonda-tea-coffee"
-  s.version     = "0.0.0"
+  s.version     = "1.0.0"
   s.summary     = "Hola!"
   s.description = "A simple hello world gem"
   s.authors     = ["wonda-tea-coffee"]
@@ -8,4 +8,5 @@ Gem::Specification.new do |s|
   s.files       = ["lib/hola_wonda-tea-coffee.rb"]
   s.homepage    = "https://rubygems.org/gems/hola_wonda-tea-coffee"
   s.license     = "MIT"
+  s.extensions = %w[ext/hola_wonda-tea-coffee/extconf.rb]
 end
